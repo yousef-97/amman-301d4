@@ -216,8 +216,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+//the student object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+//the window object
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// this will refer to the contining blocks (because use strict),but arrow function will refer to window object immediately
