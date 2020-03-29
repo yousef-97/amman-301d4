@@ -36,8 +36,8 @@ function displayPics(){
     }
   }
   // console.log(rando);
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `let to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `var to `let`.
+  // because the let is defined  just inside the block and this line is out of the block
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
